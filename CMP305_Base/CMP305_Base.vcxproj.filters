@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\grass">
+      <UniqueIdentifier>{19dc95ab-a94b-44b9-8e00-83a94734a61e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\ground">
+      <UniqueIdentifier>{f35ebef1-bf36-4b05-bd7f-d0ce350ffef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\pixel">
+      <UniqueIdentifier>{0f7159eb-2276-4dcf-8903-22e26b43d599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\flowers">
+      <UniqueIdentifier>{ec7ae9e6-0432-4fe6-913c-bf750637a3c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\erosion">
+      <UniqueIdentifier>{f251b8b6-b9f0-49ae-959f-7b50183d4fa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\sky">
+      <UniqueIdentifier>{e93bb73d-5f19-46dc-99fa-b9cd04dd1c45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tracelog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureIdManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LineMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="city.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StreetShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelOnlyShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GroundShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GrassShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowerShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Erosion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CopyShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CylinderMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tracelog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureIdManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mmodel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LineMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ptr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="city.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StreetShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelOnlyShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeightShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GroundShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GrassShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowerShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Erosion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CylinderMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shaders\light_ps.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\light_vs.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="street_vs.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="street_ps.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="texture_vs.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="grass_gs.hlsl">
+      <Filter>Resource Files\grass</Filter>
+    </FxCompile>
+    <FxCompile Include="grass_ps.hlsl">
+      <Filter>Resource Files\grass</Filter>
+    </FxCompile>
+    <FxCompile Include="grass_vs.hlsl">
+      <Filter>Resource Files\grass</Filter>
+    </FxCompile>
+    <FxCompile Include="ground_ps.hlsl">
+      <Filter>Resource Files\ground</Filter>
+    </FxCompile>
+    <FxCompile Include="ground_vs.hlsl">
+      <Filter>Resource Files\ground</Filter>
+    </FxCompile>
+    <FxCompile Include="height_ps.hlsl">
+      <Filter>Resource Files\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="normal_ps.hlsl">
+      <Filter>Resource Files\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="grass_hs.hlsl">
+      <Filter>Resource Files\grass</Filter>
+    </FxCompile>
+    <FxCompile Include="grass_ds.hlsl">
+      <Filter>Resource Files\grass</Filter>
+    </FxCompile>
+    <FxCompile Include="flower_gen_ps.hlsl">
+      <Filter>Resource Files\flowers</Filter>
+    </FxCompile>
+    <FxCompile Include="flower_gs.hlsl">
+      <Filter>Resource Files\flowers</Filter>
+    </FxCompile>
+    <FxCompile Include="rock_gen_ps.hlsl">
+      <Filter>Resource Files\ground</Filter>
+    </FxCompile>
+    <FxCompile Include="grass_gen_ps.hlsl">
+      <Filter>Resource Files\ground</Filter>
+    </FxCompile>
+    <FxCompile Include="copy_ps.hlsl">
+      <Filter>Resource Files\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="flow_ps.hlsl">
+      <Filter>Resource Files\erosion</Filter>
+    </FxCompile>
+    <FxCompile Include="water_ps.hlsl">
+      <Filter>Resource Files\erosion</Filter>
+    </FxCompile>
+    <FxCompile Include="rain_ps.hlsl">
+      <Filter>Resource Files\erosion</Filter>
+    </FxCompile>
+    <FxCompile Include="velocity_ps.hlsl">
+      <Filter>Resource Files\erosion</Filter>
+    </FxCompile>
+    <FxCompile Include="erosion_ps.hlsl">
+      <Filter>Resource Files\erosion</Filter>
+    </FxCompile>
+    <FxCompile Include="transport_ps.hlsl">
+      <Filter>Resource Files\erosion</Filter>
+    </FxCompile>
+    <FxCompile Include="grass_pattern_ps.hlsl">
+      <Filter>Resource Files\grass</Filter>
+    </FxCompile>
+    <FxCompile Include="grass_cs.hlsl">
+      <Filter>Resource Files\grass</Filter>
+    </FxCompile>
+    <FxCompile Include="sky_vs.hlsl">
+      <Filter>Resource Files\sky</Filter>
+    </FxCompile>
+    <FxCompile Include="sky_ps.hlsl">
+      <Filter>Resource Files\sky</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="noise.hlsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="erosion_common.hlsl">
+      <Filter>Resource Files\erosion</Filter>
+    </None>
+  </ItemGroup>
+</Project>
